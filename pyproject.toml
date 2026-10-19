@@ -1,0 +1,13 @@
+[project]
+name = "carbon-intensity"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "matplotlib>=3.11.2",
+    "polars>=2.0.0",
+    "scikit-learn>=1.9.1",
+    "xgboost>=3.4.1",
+]
